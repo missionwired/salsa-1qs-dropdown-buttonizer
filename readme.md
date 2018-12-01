@@ -27,4 +27,6 @@ This is maybe a little overkill, but it's hard to code without [arrow functions]
 1. **Build Javascript:** `npm run build`
 2. **Deploy files:** Copy the contents of `public/` to `https://annelewisllc.s3.amazonaws.com/assets/salsa/1qs-dropdown-buttonizer`
 
+## Example
 
+As of 2018-11-30, you can see this code in action on [Sen. Shaheen's Salsa site](https://action.jeanneshaheen.org/p/dia/action4/common/public/?action_KEY=1212#fb).
