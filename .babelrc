@@ -1,0 +1,10 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": "> 1%"
+    }],
+    ["minify"]
+  ],
+  "comments": false,
+  "sourceMaps": true
+}
