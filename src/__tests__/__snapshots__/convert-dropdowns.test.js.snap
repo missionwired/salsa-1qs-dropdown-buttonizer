@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convertDropdownsToRadios creates a OQS div that matches the expected snapshot 1`] = `
+<div
+  class="oqs"
+>
+  
+            
+  <input
+    checked=""
+    id="do_you_trust_donald_trump__No_id"
+    name="do_you_trust_donald_trump_"
+    type="radio"
+    value="No"
+  />
+  
+            
+  <label
+    class="highlight"
+    for="do_you_trust_donald_trump__No_id"
+  >
+    No
+  </label>
+  
+          
+            
+  <input
+    id="do_you_trust_donald_trump__Yes_id"
+    name="do_you_trust_donald_trump_"
+    type="radio"
+    value="Yes"
+  />
+  
+            
+  <label
+    for="do_you_trust_donald_trump__Yes_id"
+  >
+    Yes
+  </label>
+  
+          
+</div>
+`;
