@@ -6,7 +6,10 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'convert-dropdowns.bundle.js',
+    filename: 'convert-dropdowns.js',
+    library: 'convertDropdowns',
+    libraryExport: 'default',
+    libraryTarget: 'umd',
   },
   module: {
     rules: [

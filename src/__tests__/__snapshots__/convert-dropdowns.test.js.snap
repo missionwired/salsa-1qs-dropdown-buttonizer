@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`convertDropdownsToRadios creates a OQS div that matches the expected snapshot 1`] = `
+exports[`convertDropdowns creates a OQS div that matches the expected snapshot 1`] = `
 <div
   class="oqs"
 >
   
-            
+              
   <input
     checked=""
     id="do_you_trust_donald_trump__No_id"
@@ -14,7 +14,7 @@ exports[`convertDropdownsToRadios creates a OQS div that matches the expected sn
     value="No"
   />
   
-            
+              
   <label
     class="highlight"
     for="do_you_trust_donald_trump__No_id"
@@ -22,8 +22,8 @@ exports[`convertDropdownsToRadios creates a OQS div that matches the expected sn
     No
   </label>
   
-          
             
+              
   <input
     id="do_you_trust_donald_trump__Yes_id"
     name="do_you_trust_donald_trump_"
@@ -31,13 +31,13 @@ exports[`convertDropdownsToRadios creates a OQS div that matches the expected sn
     value="Yes"
   />
   
-            
+              
   <label
     for="do_you_trust_donald_trump__Yes_id"
   >
     Yes
   </label>
   
-          
+            
 </div>
 `;
