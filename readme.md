@@ -28,6 +28,26 @@ This is maybe a little overkill, but it's hard to code without [arrow functions]
 1. **Build Javascript:** `npm run build`
 2. **Deploy files:** Copy the contents of `dist/` to `https://annelewisllc.s3.amazonaws.com/assets/salsa/1qs-dropdown-buttonizer`
 
+## Usage
+
+When it's time to use this code on a Salsa action page, add and initialize the script like this:
+
+```html
+<script src="https://annelewisllc.s3.amazonaws.com/assets/salsa/1qs-dropdown-buttonizer/convert-dropdowns.js"></script>
+
+<script>
+  convertDropdowns(highlightAnswer);
+</script>
+```
+"Highlight" styling will be applied to `input` elements with a `value` attribute that equals `highlightAnswer`. This is usually used to indicate the "right" answer.
+
+If multiple highlight answer values are provided any `input` whose `value` is one of those provided will receive highlight styling. Example:
+
+```javascript
+convertDropdowns(highlightAnswer1, highlightAnswer2, ...);
+```
+
+
 ## Example
 
 As of 2018-11-30, you can see this code in action on [Sen. Shaheen's Salsa site](https://action.jeanneshaheen.org/p/dia/action4/common/public/?action_KEY=1212#fb).
